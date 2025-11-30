@@ -415,9 +415,11 @@ wget.callbacks.get_urls = function(file, url, is_css, iri)
         found = true
       end
       if type(v) == "string" then
+        v = string.gsub(v, "([^0-9a-zA-Z])", "%%%1")
         queue_template(string.gsub(newurl, "{" .. k .. "}", v), newdata)
       elseif type(v) == "table" then
         for _, s in pairs(v) do
+          s = string.gsub(s, "([^0-9a-zA-Z])", "%%%1")
           queue_template(string.gsub(newurl, "{" .. k .. "}", s), newdata)
         end
       end
