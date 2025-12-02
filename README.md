@@ -1,6 +1,6 @@
 # adobeaero-grab
 
-More information about the archiving project can be found on the ArchiveTeam wiki: [Adobe Aero](https://wiki.archiveteam.org/index.php?title=Adobe Aero)
+More information about the archiving project can be found on the ArchiveTeam wiki: [Adobe Aero](https://wiki.archiveteam.org/index.php/Adobe_Aero)
 
 ## Donations
 
